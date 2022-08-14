@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body{
+    
+    margin: 0px auto 0px auto;
+    width: 67%;
+    border: 2px ;
+    padding: 10px 20px 20px 10px;
+}
+h1{
+    font-family: "Montserrat";
+    margin-left: 20px;
+}
+.post{
+    font-family: "roboto", "arial";
+    margin-left: 20px;
+}
+.post-container{
+    font-family: "Open Sans";
+    background-color: #fffafa;
+    margin-left: 20px;
+}
+.date{
+    color: #008080;
+    margin-left: 20px;
+}
+p{
+    margin-left: 20px;
+    text-align: justify;
+}

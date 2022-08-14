@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@300&family=Oswald:wght@400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@300&family=Oswald:wght@400;500&display=swap');
+
+:root{
+    --cor01: #07070D;
+    --cor02: #121D40;
+    --cor03: #2F4673;
+    --cor04: #182940;
+    --cor05: #5B7BA6;
+
+    --fonte-padrao: "Arial", "Verdiana", "sans-serif";
+    --fonte-destaque: "Kanit", "sans-serif";
+    
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: var(--cor05);
+    
+}
+
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+}
+
+header{
+    background-image: linear-gradient(to top, var(--cor02), var(--cor03));
+    text-align: center;
+}
+header > h1{
+    color: white;
+    font-family: var(--fonte-destaque);
+    font-size: 3em;
+    font-weight: normal;
+    min-height: 100px;
+    padding-top: 30px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.719);
+}
+header > p{
+    color: white;
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+    max-width: 600px;
+    min-height: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    margin-bottom: 0px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.596);
+}
+
+.cima{
+    width: 100%;
+    min-width: 320px;
+    max-width: 800px;
+    padding: 50px;
+    display: block;
+    margin: auto;
+
+}
+nav{
+    background-color: var(--cor02);
+    color: white;
+    padding: 10px;
+}
+nav > a{
+    color: white;
+    font-family: "Oswald";
+    text-decoration: none;
+    padding: 10px;
+    transition-duration: 0.5s;
+}
+nav > a:hover{
+    background-color: var(--cor01);
+    border-radius: 5px 5px 5px 5px; 
+      
+}
+main{
+    background-color: white;
+    margin: auto;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    min-width: 320px;
+    max-width: 800px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+main a{
+    text-decoration: none;
+    background-color: var(--cor05);
+    font-weight: bold;
+    padding: 1px 8px 0px 8px;
+    
+}
+
+main a:hover{
+    text-decoration: underline;
+}
+
+img{
+
+    width: 100%;
+}
+
+main p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 0px;
+    font-size: 1em;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+}
+
+main h2{
+    color: var(--cor03);
+    font-family: var(--fonte-destaque);
+}
+
+main  h3{
+    margin: 15px 0px;
+    font-family: var(--fonte-destaque);
+    background-image: linear-gradient(to right, var(--cor05), transparent);
+    text-indent: 10px;
+}
+main ul{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: "\2714\00a0\00a0";
+    list-style-position: inside
+}
+
+aside{
+    padding-bottom: 30px;
+
+}
+table, td, th{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    
+}
+
